@@ -2,11 +2,19 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 23
+<<<<<<< HEAD
+    buildToolsVersion "23.0.1"
+
+    defaultConfig {
+        applicationId "com.pocketweb.dnd"
+        minSdkVersion 15
+=======
     buildToolsVersion "24.0.0 rc2"
 
     defaultConfig {
         applicationId "com.pocketweb.dnd"
         minSdkVersion 10
+>>>>>>> 1d4e6733441e2a659cc9b4e113176e8610868e68
         targetSdkVersion 23
         versionCode 1
         versionName "1.0"
