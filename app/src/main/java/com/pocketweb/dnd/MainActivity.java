@@ -1,5 +1,6 @@
 package com.pocketweb.dnd;
 
+<<<<<<< HEAD
 import android.app.AlarmManager;
 import android.app.PendingIntent;
 import android.content.Context;
@@ -15,6 +16,10 @@ import android.widget.Toast;
 import android.widget.ToggleButton;
 
 import java.util.Calendar;
+=======
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+>>>>>>> 1d4e6733441e2a659cc9b4e113176e8610868e68
 
 public class MainActivity extends AppCompatActivity {
 
@@ -22,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+<<<<<<< HEAD
         final ToggleButton b[]=new ToggleButton[7];
         EditText timeSelect = (EditText)findViewById(R.id.editText);
         String time = timeSelect.getText().toString();
@@ -112,4 +118,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+=======
+    }
+>>>>>>> 1d4e6733441e2a659cc9b4e113176e8610868e68
 }

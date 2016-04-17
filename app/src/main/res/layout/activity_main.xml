@@ -9,6 +9,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.pocketweb.dnd.MainActivity">
 
+<<<<<<< HEAD
     <Switch
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -166,4 +167,10 @@
         android:layout_toRightOf="@+id/cbRepeat"
         android:layout_toEndOf="@+id/cbRepeat" />
 
+=======
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!" />
+>>>>>>> 1d4e6733441e2a659cc9b4e113176e8610868e68
 </RelativeLayout>

@@ -1,21 +1,40 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1d4e6733441e2a659cc9b4e113176e8610868e68
 buildscript {
     repositories {
         jcenter()
     }
     dependencies {
+<<<<<<< HEAD
         classpath 'com.android.tools.build:gradle:2.0.0'
+=======
+        classpath 'com.android.tools.build:gradle:2.0.0-beta6'
+>>>>>>> 1d4e6733441e2a659cc9b4e113176e8610868e68
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
     }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1d4e6733441e2a659cc9b4e113176e8610868e68
 allprojects {
     repositories {
         jcenter()
     }
 }
+<<<<<<< HEAD
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
 
+=======
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+>>>>>>> 1d4e6733441e2a659cc9b4e113176e8610868e68
